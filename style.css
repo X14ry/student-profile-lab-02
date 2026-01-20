@@ -1,0 +1,53 @@
+/* CSS Styles for Student Profile Page using Universal Selectors */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Element Selector */
+h1 {
+    color: blue;
+    text-align: center;
+    margin-top: 10px;
+}
+
+p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+h2, h3 {
+    color: darkgreen;
+    margin-bottom: 10px 0;
+}
+
+/* Class Selector */
+section-box {
+    border: 2px solid black;
+    padding: 15px;
+    margin: 20px;
+}
+
+/* ID Selector */
+#student-name {
+    color: maroon;
+    font-weight: bold;
+}
+
+/* Descendant Selector */
+.course-list li {
+    color: navy;
+    margin-left: 20px;
+}
+
+.hobby-list li {
+    color: purple;
+    margin-left: 20px;
+}
+
+/* Footer Styling */
+footer p {
+    text-align: center;
+    margin: 20px 0;
+}
